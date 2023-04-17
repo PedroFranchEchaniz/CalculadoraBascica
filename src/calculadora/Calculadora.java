@@ -81,6 +81,8 @@ public class Calculadora {
 					break;
 			}
 		}while(respuesta!=0);
+		
+		sc.close();
 	}
 
 }
