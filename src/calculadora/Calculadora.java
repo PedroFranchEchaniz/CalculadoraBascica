@@ -33,6 +33,12 @@ public class Calculadora {
 		resul = num1-num2;
 		
 		System.out.println("La resta es " +resul);
+		
+		//Implementacion multiplicación 
+		
+		resul = num1*num2;
+		
+		System.out.println("La multiplicación es " +resul);
 	}
 
 }
