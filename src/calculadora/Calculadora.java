@@ -10,8 +10,23 @@ public class Calculadora {
 		
 		int num1;
 		int num2;
+		int resul;
 		
+		//Implementacion suma
 		
+		String aux;
+		
+		System.out.println("Indique el primer número");
+		aux=sc.nextLine();
+		num1=Integer.parseInt(aux);
+		
+		System.out.println("Indique el segundo número");
+		aux=sc.nextLine();
+		num2=Integer.parseInt(aux);
+		
+		resul = num1+num2;
+		
+		System.out.println("La suma es " +resul);
 	}
 
 }
