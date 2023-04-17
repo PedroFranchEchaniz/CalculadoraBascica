@@ -46,7 +46,11 @@ public class Calculadora {
 		
 		System.out.println("La división es " +resul);
 		
+		//Implementacion resto 
 		
+		resul = num1%num2;
+		
+		System.out.println("El resto es de la divisón es " +resul);
 	}
 
 }
