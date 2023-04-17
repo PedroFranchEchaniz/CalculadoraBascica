@@ -27,6 +27,12 @@ public class Calculadora {
 		resul = num1+num2;
 		
 		System.out.println("La suma es " +resul);
+		
+		//Implementacion resta
+		
+		resul = num1-num2;
+		
+		System.out.println("La resta es " +resul);
 	}
 
 }
