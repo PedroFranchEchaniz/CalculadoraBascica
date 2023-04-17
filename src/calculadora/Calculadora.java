@@ -39,6 +39,12 @@ public class Calculadora {
 		resul = num1*num2;
 		
 		System.out.println("La multiplicación es " +resul);
+		
+		//Implementacion division 
+		
+		resul = num1/num2;
+		
+		System.out.println("La división es " +resul);
 	}
 
 }
