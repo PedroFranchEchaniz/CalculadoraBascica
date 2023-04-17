@@ -45,6 +45,8 @@ public class Calculadora {
 		resul = num1/num2;
 		
 		System.out.println("La división es " +resul);
+		
+		
 	}
 
 }
